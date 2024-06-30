@@ -1,0 +1,26 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "ussrT2.png",
+      "position" : [-2, -1]
+    }
+  ],
+  
+  "foregroundOverlays" : [
+    {
+      "image" : "ussrT2foreground.png",
+      "position" : [-2, -1]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "ussrT2blocks.png"
+}
